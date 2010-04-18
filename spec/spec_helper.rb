@@ -1,15 +1,12 @@
 require 'rubygems'
 require 'spec'
 gem 'activerecord', '=3.0.0.beta3'
-#require 'active_record'
-require 'arel'
+
 
 $:.unshift((File.join(File.dirname(__FILE__), '..', 'lib')))
 require 'spatial_adapter'
 
 include GeoRuby::SimpleFeatures
-
-Arel::Table.engine = Arel::Sql::Engine.new(ActiveRecord::Base)
 
 # Don't output migration logging
 ActiveRecord::Migration.verbose = false
