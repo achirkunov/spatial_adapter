@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'spec'
-gem 'activerecord', '=3.0.0.beta3'
+gem 'activerecord', '=2.3.5'
 
 
 $:.unshift((File.join(File.dirname(__FILE__), '..', 'lib')))
