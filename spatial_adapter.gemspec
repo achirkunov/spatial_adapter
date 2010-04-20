@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{spatial_adapter}
+  s.name = %q{achirkunov-spatial_adapter}
   s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
      "lib/spatial_adapter/postgresql.rb",
      "rails/init.rb"
   ]
-  s.homepage = %q{http://github.com/fragility/spatial_adapter}
+  s.homepage = %q{http://github.com/achirkunov/spatial_adapter}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
