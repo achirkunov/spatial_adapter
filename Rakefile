@@ -12,12 +12,12 @@ end
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "spatial_adapter"
+    gem.name = "achirkunov-spatial_adapter"
     gem.summary = "Spatial Adapter for ActiveRecord"
     gem.description = "Provides enhancements to ActiveRecord to handle spatial datatypes in PostgreSQL and MySQL."
     gem.author = "Pete Deffendol"
     gem.email = "pete@fragility.us"
-    gem.homepage = "http://github.com/fragility/spatial_adapter"
+    gem.homepage = "http://github.com/achirkunov/spatial_adapter"
     
     gem.files = FileList[
       "rails/*.rb",
@@ -31,7 +31,7 @@ begin
       "spec/README.txt"
     ]
   
-    gem.add_dependency 'activerecord', '>= 2.2.2'
+    gem.add_dependency 'activerecord', '>= 3.0.0.beta3'
     gem.add_dependency 'GeoRuby', '>= 1.3.0'
   end
 
